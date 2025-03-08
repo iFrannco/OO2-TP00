@@ -10,7 +10,7 @@ public class FechaAnemica {
     }
 
     public LocalDateTime getFecha(){
-        return fecha;
+        return this.fecha;
     }
 
     public void setFecha(LocalDateTime nuevaFecha){
