@@ -12,10 +12,10 @@ public class FechaNoAnemica {
     }
 
     public void fechaCorta(){
-        System.out.println(fecha.format(DateTimeFormatter.ofPattern("dd-MM-yyyy")));
+        System.out.println(this.fecha.format(DateTimeFormatter.ofPattern("dd-MM-yyyy")));
     }
 
     public void fechaLarga() {
-        System.out.println(fecha.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL)));
+        System.out.println(this.fecha.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL)));
     }
 }
