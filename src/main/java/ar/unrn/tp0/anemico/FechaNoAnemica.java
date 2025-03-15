@@ -7,11 +7,11 @@ import java.time.format.FormatStyle;
 public class FechaNoAnemica {
     private LocalDateTime fecha;
 
-    public FechaNoAnemica(){
+    public FechaNoAnemica() {
         this.fecha = LocalDateTime.now();
     }
 
-    public void fechaCorta(){
+    public void fechaCorta() {
         System.out.println(this.fecha.format(DateTimeFormatter.ofPattern("dd-MM-yyyy")));
     }
 
